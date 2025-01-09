@@ -62,7 +62,7 @@
         }
 
         body.dark .about-buttons a {
-    background-color: #FEBA01;
+    background-color: rgb(233, 237, 243);
     color: #000; /* Black text color */
     border-color: #000; /* Black border */
 }
@@ -80,7 +80,7 @@ body.dark .about-buttons a:hover {
         }
 
         body.dark {
-            background-color: #121212;
+            background-color: #373737;
             color: #d1d1d1;
         }
 
@@ -91,8 +91,8 @@ body.dark .about-buttons a:hover {
 
         /* Scroll Progress Bar */
         #progressBar {
-            height: 4px;
-            background-color:#FEBA01;
+            height: 10px;
+            background-color: rgba(74, 115, 61, 0.94);
             position: fixed;
             top: 0;
             left: 0;
@@ -102,7 +102,7 @@ body.dark .about-buttons a:hover {
 
         /* Header */
         header {
-            background-color: #fff;
+            background-color: rgb(233, 237, 243);
             padding: 20px;
             display: flex;
             justify-content: space-between;
@@ -136,18 +136,20 @@ body.dark .about-buttons a:hover {
         }
 
         nav ul li button:hover {
-            color: black;
+            color: white;
             
             border-radius: 5px;
-            background-color: #FEBA01;
+            background-color: rgba(74, 115, 61, 0.94);
             box-shadow: 2px 2px 5px gray;
         }
+
+
 
         .toggle-container {
             position: relative;
             width: 50px;
             height: 25px;
-            background: #ddd;
+            background: rgba(71, 8, 27, 0.76);
             border-radius: 25px;
             cursor: pointer;
             transition: background 0.3s;
@@ -180,7 +182,9 @@ body.dark .about-buttons a:hover {
             padding: 20px;
         }
 
-    
+        .card h2 {
+            color: rgba(74, 115, 61, 0.94);
+        }
         .card {
             background-color: #fff;
             border-radius: 10px;
@@ -232,7 +236,7 @@ body.dark .about-buttons a:hover {
     left: 0;
     height: 100%;
     width: var(--fill);
-    background-color: #FEBA01;
+    background-color: rgba(71, 8, 27, 0.76);
     border-radius: 5px;
     z-index: 1;
     transition: width 0.3s ease;
@@ -243,12 +247,12 @@ body.dark .about-buttons a:hover {
     right: 10px;
     font-size: 12px;
     font-weight: bold;
-    color: #333;
+    color: rgba(71, 8, 27, 0.76);
     z-index: 2;
 }
 
 body.dark .bar-container::after {
-    background-color: #FEBA01; /* Yellow for dark mode */
+    background-color: rgba(74, 115, 61, 0.94); /* Yellow for dark mode */
 }
         .list-item {
             margin: 10px 0;
@@ -269,6 +273,7 @@ body.dark .bar-container::after {
         .dark footer {
             background-color: #1f1f1f;
         }
+
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -320,22 +325,19 @@ body.dark .bar-container::after {
         <div class="card" id="about">
             <div class="about-content">
                 <div class="">
-                    <img src="KN_logo_Icon (1).png" height="120px" width="120px" alt="Priya Khairate">
+                    <img src="arun.jpg" height="120px" width="120px" alt="Arun Kota">
                 </div>
                 <div class="about-text">
-                    <h1>PRIYA KHAIRATE</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque sit, 
-                        pariatur similique sint quae dolorem animi iste corporis, impedit cumque, deleniti 
-                        earum ducimus velit ullam amet accusantium asperiores! Dolore quo 
-                        tenetur aliquam distinctio natus dolores minus minima odio? Beatae!</p>
+                    <h1>Arun Kota</h1>
+                    <p>Aspiring Full Stack Developer with a solid academic foundation and hands-on experience in front-end and back-end development. Skilled in HTML, CSS, JavaScript, React, and Node.js, and familiar with databases like MySQL and MongoDB. Seeking an entry-level position to apply my skills, contribute to team projects, and continue growing as a developer.</p>
                 </div>
             </div>
             <div class="about-buttons">
-                <a href="https://linkedin.com" target="_blank">
+                <a href="https://www.linkedin.com/in/arun7286/" target="_blank">
                     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 16px;">
                     LinkedIn
                 </a>
-                <a href="https://github.com" target="_blank">
+                <a href="https://github.com/arun7286" target="_blank">
                     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 16px;">
                     GitHub
                 </a>
@@ -345,56 +347,50 @@ body.dark .bar-container::after {
         <!-- Experience Section -->
         <div class="card" id="experience">
             <h2>Work Experience</h2> <hr><br>
-            <p><strong> <li>KODNEST TECHNOLOGIES | Jan. 2024 - May 2024 </li></strong></p>
+            <p><strong> <li>KODNEST TECHNOLOGIES <br> Aug. 2024 - Present </li></strong></p>
             <p><i><strong>Software Developer</strong></i></p><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto neque asperiores deleniti ex, maiores dolores porro! Voluptate, culpa veritatis?</p> <br>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi necessitatibus at quas eius illo, dolore consectetur ipsa quis alias error, repudiandae voluptatum. Blanditiis nihil libero fugit odio a, pariatur dolore.</p>
+            <p>Currently interning at Kodnest, where I’ve gained hands-on experience in full-stack development. I have strengthened my skills in Java, Python, JavaScript, HTML, CSS, and MySQL, contributing to both front-end and back-end development tasks.</p> <br>
+            <p>This role has enhanced my ability to write efficient code, collaborate in a team, and work on real-world projects. I'm excited to continue growing my expertise and contribute to meaningful development initiatives</p>
         </div>
 
         <!-- Projects Section -->
         <div class="card" id="projects">
             <h2>Projects</h2><hr><br>
                 <li class="list-item;" >
-                   <strong>eCOMMERCE MANAGEMENT SYSTEM</strong>
-                   <i><p><u>Python, Django, HTML, CSS, JavaScript | Sep 2023 - Dec 2023</p></i></u> <br>
-                    <li>Developed a comprehensive eCommerce platform using Django, Python, HTML5, CSS3, and JavaScript
-                        that enables users to browse items, add products to their cart, and place orders seamlessly.</li>
+                   <strong>Quiz App</strong>
+                   <i><p><u> JavaScript, HTML, CSS, React.js<br></u></p></i> <br>
+                    <li>An interactive quiz application built with React.js,
+                        featuring real-time score tracking and intuitive UI controls.</li>
 
-                    <li>Implemented user authentication for secure login and registration, ensuring a personalized shopping
-                        experience. The platform features an intuitive interface, allowing users to easily navigate through
-                        categories and view product details.</li>
-
-                        <li>Utilized SQLite as the database to efficiently store and manage product and user data.</li>
-                        <li>Integrated payment gateway functionality for smooth transaction processing, enhancing overall user
-                            satisfaction and engagement.</li>
+                    <li>Multiple Choice Questions with selectable options</li>
+                    <li>Next Button Control: Disabled until an option is selected</li>
+                    <li>Score Tracking: Displays score at the end of the quiz</li>
+                    <li>Responsive Design with CSS for enhanced user experience</li>
                 </li><br><hr><hr><hr>
                 <li class="list-item">
-                    <strong>Batch Processing</strong>
-                    <p><i><u>Java, Spring Boot, RESTful, MySQL | July 2024 - Sep 2024</u></i></p><br>
-                    <li><strong>Spring Batch Framework:</strong> Utilized Spring Batch to orchestrate and manage batch processing workflows,
-                        allowing for the efficient insertion of records into the Database.
-                        </li>
-                    <li><strong>Scheduling:</strong> Integrated the execution of batch job to RESTful calls via file uploads</li>
-                    <li><strong>Readers and Writers:</strong>  Integrated item readers to read input data from various sources, such as files
-                        or databases, and item writers to persist processed data.</li>
+                    <strong>Connect Digitally</strong>
+                    <p><i><u>Python, Flask, HTML, CSS, MySQL | July 2024 - Sep 2024</u></i></p><br>
+
+            <li>Developed CONNECT DIGITALLY, a comprehensive web application utilizing Python
+            Flask framework to streamline academic fee payments.</li>
+            <li>Implemented seamless digital payment functionality, 12% enabling students to effortlessly
+                settle their academic fees online, reducing administrative burdens.</li>
+            <li>Engineered an intuitive interface for students to place food orders in advance, enhancing
+                convenience and efficiency within the educational environment.</li>
+            <li>Integrated robust academic detail management features, 15% empowering students to easily
+                access and oversee their academic records within the platform.</li>
+            <li>Spearheaded the development of a user-friendly dashboard, providing students with a
+                centralized hub to effortlessly manage their academic.</li>
                 </li><br> <hr><hr><hr>
-                <li class="list-item">
-                    <strong>RESPONSIVE UI</strong>
-                    <p><u><i>HTML, CSS, JavaScript | Jan 2024 - Aug 2024 </i></u></p> <br>
-                    <li>A collection of mini web applications showcasing various functionalities built using HTML, CSS, and
-                        JavaScript. This repository includes a range of projects designed to demonstrate different aspects of web
-                        development and interactive UI/UX design. Each project is aimed at providing hands-on experience with
-                        frontend technologies and solving common web development challenges.</li>
-                </li>
-            </ul>
+
         </div>
         
         <!-- Education Section -->
         <div class="card" id="education">
             <h2>Education</h2><hr><br>
             <ul>
-                <li><strong>Degree:</strong> Bachelor of Engineering in Electrical Engineering<br><strong>Year:</strong> 2020<br><strong>CGPA:</strong>9.6</li> <br>
-                <li><strong>Diploma:</strong> In Electrical Engineering<br><strong>Year:</strong> 2017<br><strong>Percentage:</strong> 84%</li><br>
+                <li><strong>Degree:</strong> Bachelor of Technology in Information Technology<br><strong>Year:</strong> 2023<br><strong>CGPA:</strong>7.36</li> <br>
+                <li><strong>Board of Intermediate Education</strong><br><strong>Year:</strong> 2019<br><strong>CGPS:</strong>8.67</li><br>
             </ul>
         </div>
 
@@ -404,8 +400,8 @@ body.dark .bar-container::after {
             <hr><br>
             <div class="skills-bar">
                 <label>Java</label>
-                <span class="bar-container" style="--fill: 50%;">
-                    <span class="percentage">80%</span>
+                <span class="bar-container" style="--fill: 60%;">
+                    <span class="percentage">60%</span>
                 </span>
             </div>
             <div class="skills-bar">
@@ -422,14 +418,14 @@ body.dark .bar-container::after {
             </div>
             <div class="skills-bar">
                 <label>JavaScript</label>
-                <span class="bar-container" style="--fill: 60%;">
-                    <span class="percentage">60%</span>
+                <span class="bar-container" style="--fill: 55%;">
+                    <span class="percentage">55%</span>
                 </span>
             </div>
             <div class="skills-bar">
                 <label>ReactJS</label>
-                <span class="bar-container" style="--fill: 60%;">
-                    <span class="percentage">60%</span>
+                <span class="bar-container" style="--fill: 50%;">
+                    <span class="percentage">50%</span>
                 </span>
             </div>
             <div class="skills-bar">
@@ -444,33 +440,20 @@ body.dark .bar-container::after {
                     <span class="percentage">60%</span>
                 </span>
             </div>
-            <div class="skills-bar">
-                <label>Spring Boot</label>
-                <span class="bar-container" style="--fill: 60%;">
-                    <span class="percentage">60%</span>
-                </span>
-            </div>
-            <div class="skills-bar">
-                <label>Selenium</label>
-                <span class="bar-container" style="--fill: 70%;">
-                    <span class="percentage">70%</span>
-                </span>
-            </div>
-            
         </div>
         
         
         <!-- Contact Section -->
         <div class="card" id="contact">
             <h2>Contact</h2><hr><br>
-            <p>Email: <a href="mailto:tarun@example.com">priyakhairate0000@gmail.com</a></p>
-            <p>Phone: +91 9096812382</p>
+            <p>Email: <a href="mailto:arunkota149@example.com">arunkota149@gmail.com</a></p>
+            <p>Phone: +91 7286035638</p>
         </div>
     </div>
 
     <!-- Footer -->
     <footer>
-        <p>© 2024 Priya Khairate. All rights reserved.</p>
+        <p>© 2024 Arun Kota. All rights reserved.</p>
     </footer>
 
     <!-- JavaScript -->
