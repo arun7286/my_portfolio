@@ -101,18 +101,11 @@ If you'd like to contribute to this project, feel free to fork this repository a
 
 ## 🔖 **Badges**
 
-[![GitHub stars](https://img.shields.io/github/stars/arun7286/portfolio?style=social)](https://github.com/arun7286/portfolio)  
-[![GitHub forks](https://img.shields.io/github/forks/arun7286/portfolio?style=social)](https://github.com/arun7286/portfolio)  
-[![Contributors](https://img.shields.io/github/contributors/arun7286/portfolio?style=flat-square)](https://github.com/arun7286/portfolio/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/arun7286/portfolio?style=social)](https://github.com/arun7286/my_portfolio)  
+[![GitHub forks](https://img.shields.io/github/forks/arun7286/portfolio?style=social)](https://github.com/arun7286/my_portfolio)  
+[![Contributors](https://img.shields.io/github/contributors/arun7286/portfolio?style=flat-square)](https://github.com/arun7286/my_portfolio/graphs/contributors)
 
 ---
 
-## 📝 **Acknowledgments**
-
-- Thanks to [React.js](https://reactjs.org/) for building the user interface.
-- Thank you to [Font Awesome](https://fontawesome.com/) for providing useful icons.
-- Special thanks to the open-source community for providing guidance and tools to build this portfolio!
-
----
 
 
